@@ -1,6 +1,6 @@
 **<h1>HTML, advanced</h1>**
 _<h3 style="font-family: Arial;">Done By I.Prince</h3>_
-<img src="(https://github.com/iranziprince01/alu-web-development/assets/116654088/8a8ae1e5-70f8-4fd3-a637-f472836c456a)">
+<img src="https://github.com/iranziprince01/alu-web-development/assets/116654088/8a8ae1e5-70f8-4fd3-a637-f472836c456a">
 <p>For this project I used these resources:</p>
 <h2>Resources:</h2>
 <ul>
@@ -20,4 +20,4 @@ _<h3 style="font-family: Arial;">Done By I.Prince</h3>_
   <li>What is an attribute</li>
   <li>What the purpose of each HTML tag</li>
 </ul>
-** <h1>Thank you!<h1> **
+<h1>Thank you!<h1>

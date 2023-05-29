@@ -4,7 +4,7 @@ _<h3>Done By I.Prince</h3>_
 <p>For this project I used these resources:</p>
 \*\* <h2>Resources:</h2> \*\*
 <ul>
-  <li>Learn to Code HTML & CSS(https://learn.shayhowe.com/html-css/)</li>
+  <li>Learn to Code HTML & CSS<https://learn.shayhowe.com/html-css/></li>
   <li>(Introduction to HTML)[https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML]</li>
   <li>(MDN)[https://developer.mozilla.org/en-US/]</li>
 </ul>

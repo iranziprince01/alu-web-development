@@ -4,9 +4,10 @@ _<h3>Done By I.Prince</h3>_
 <p>For this project I used these resources:</p>
 <h2>Resources:</h2>
 <ul>
-  <li><a href="https://learn.shayhowe.com/html-css/">Learn to code HTML&CSS</a>
-- [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-- [MDN](https://developer.mozilla.org/en-US/)
+  <li><a href="https://learn.shayhowe.com/html-css/">Learn to code HTML&CSS</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"> Introduction to HTML</a></li>            
+  <li><a href="https://developer.mozilla.org/en-US/"> MDN</a></li>
+</ul>
 
 
 # I learned these:

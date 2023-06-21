@@ -1,0 +1,2 @@
+<h1>Responsive design</h1>
+<img src="https://s3.amazonaws.com/alu-intranet.hbtn.io/uploads/medias/2019/12/4fe027a0c298339cb4cb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUZTW2RLVB%2F20230621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230621T074231Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=834d36d465b67b46e33264d6cf523846838f844f5851b84e6d3fc0db2f222fa8">

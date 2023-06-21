@@ -1,2 +1,28 @@
 <h1>Responsive design</h1>
-<img src="https://s3.amazonaws.com/alu-intranet.hbtn.io/uploads/medias/2019/12/4fe027a0c298339cb4cb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUZTW2RLVB%2F20230621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230621T074231Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=834d36d465b67b46e33264d6cf523846838f844f5851b84e6d3fc0db2f222fa8">
+
+<img src="https://github.com/iranziprince01/alu-web-development/assets/116654088/67ca7514-83d5-4799-904c-d03d101bfdba">
+
+<h2>Resources</h2>
+
+1. [The building blocks of responsive design - Progressive web apps | MDN](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks)
+
+2. [A pragmatic guide to designing and building responsive web applications](https://developerlife.com/2019/08/25/guide-to-building-responsive-web-apps/)
+
+3. [Understanding the difference between mobile-first, adaptive and responsive design](https://fredericgonzalo.com/en/understanding-the-difference-between-mobile-first-adaptive-and-responsive-design/)
+
+4. [LukeW | Mobile First](https://www.lukew.com/ff/entry.asp?933)
+
+5. [Media Queries | A collection of inspirational websites using media queries and responsive web design](https://mediaqueri.es/)
+
+6. [Responsive Design Newsletter](https://bytes.dev/?s=rwd)
+
+<h2>Learning objectives</h2>
+
+<ul>
+  <li>Mobile-first design</li>
+  <li>Media-queries</li>
+  <li>Sizes to use for responsive web design</li>
+  <li>How to make a website responsive</li>
+  <li>The differences between responsive and adaptive design</li>
+  <li>CSS units that are used to make elements flexible</li>
+</ul>

@@ -2,6 +2,7 @@
 <img src="https://github.com/iranziprince01/alu-web-development/assets/116654088/410503af-bc67-4db5-822d-a36fea9d578d">
 
 <h2>Resources</h2>
+
 1. [The building blocks of responsive design - Progressive web apps | MDN](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks)
 
 2. [A pragmatic guide to designing and building responsive web applications](https://developerlife.com/2019/08/25/guide-to-building-responsive-web-apps/)

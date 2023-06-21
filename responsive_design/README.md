@@ -1,4 +1,5 @@
 <h1>Responsive design</h1>
+
 [image](https://github.com/iranziprince01/alu-web-development/assets/116654088/67ca7514-83d5-4799-904c-d03d101bfdba)
 
 <h2>Resources</h2>

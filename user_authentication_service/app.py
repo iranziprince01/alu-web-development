@@ -61,7 +61,7 @@ def logout() -> str:
     user = AUTH.get_user_from_session_id(session_id)
     if user:
         AUTH.destroy_session(user.id)
-        return redirect('/')
+        return jsonify({"message": "OK"}), 200  # Changed this line
     else:
         abort(403)
 
@@ -87,7 +87,7 @@ def get_reset_password_token() -> str:
         - message
     """
     email = request.form.get('email')
-    user = AUTH.create_session(email)
+    user = AUTH.get_user_from_session_id(email)
     if not user:
         abort(403)
     else:
@@ -106,8 +106,7 @@ def update_password() -> str:
     new_psw = request.form.get('new_password')
     try:
         AUTH.update_password(reset_token, new_psw)
-        return jsonify({"email": f"{email}",
-                        "message": "Password updated"}), 200
+        return jsonify({"email": f"{email}", "message": "Password updated"}), 200
     except Exception:
         abort(403)
 

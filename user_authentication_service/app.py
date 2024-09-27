@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python3
-# basic flask app
+""" basic flask app"""
 
 from flask import Flask, jsonify, request, abort, make_response, redirect
 from auth import Auth
@@ -13,13 +13,13 @@ app.url_map.strict_slashes = False
 
 @app.route('/')
 def hello_world():
-    # hello world
+    """hello world"""
     return jsonify({"message": "Bienvenue"})
 
 
 @app.route('/users', methods=['POST'])
 def register_user():
-    # register user
+    """register user"""
     email = request.form.get("email")
     password = request.form.get("password")
     user = AUTH.register_user(email, password)
@@ -28,7 +28,7 @@ def register_user():
 
 @app.route('/sessions', methods=['POST'])
 def login():
-    # login
+    """login"""
     email = request.form.get("email")
     password = request.form.get("password")
     if AUTH.valid_login(email, password):
@@ -45,7 +45,7 @@ def login():
 
 @app.route('/sessions', methods=['DELETE'])
 def logout():
-    # logout
+    """logout"""
     session_id = request.cookies.get("session_id")
     if session_id:
         user = AUTH.get_user_from_session_id(session_id)
@@ -57,7 +57,7 @@ def logout():
 
 @app.route('/profile', methods=['GET'])
 def profile():
-    # get profile
+    """get profile"""
     session_id = request.cookies.get("session_id")
     if session_id:
         user = AUTH.get_user_from_session_id(session_id)
@@ -68,7 +68,7 @@ def profile():
 
 @app.route('/reset_password', methods=['POST'])
 def get_reset_password_token():
-    # get reset password token
+    """get reset password token"""
     email = request.form.get("email")
     try:
         token = AUTH.get_reset_password_token(email)
@@ -79,7 +79,7 @@ def get_reset_password_token():
 
 @app.route('/reset_password', methods=['PUT'])
 def update_password():
-    # update password
+    """update password"""
     email = request.form.get("email")
     reset_token = request.form.get("reset_token")
     password = request.form.get("new_password")
